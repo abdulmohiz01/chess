@@ -24,7 +24,7 @@ export class GameInterface {
     div.setAttribute("id", id);
     div.style.display = "none";
     div.innerHTML = "Opponent is thinking";
-
+    div.style.color = "white";
     document.body.appendChild(div);
   }
 

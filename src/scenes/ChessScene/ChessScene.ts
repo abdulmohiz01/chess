@@ -145,7 +145,7 @@ export class ChessScene extends BasicScene {
 
   private setCameraPosition(playerStartingSide: PieceColor): void {
     const z = playerStartingSide === "w" ? -8 : 8;
-    this.camera.position.set(0, 11, z);
+    this.camera.position.set(0, 19, z);
     this.camera.lookAt(0, 0, 0);
   }
 
